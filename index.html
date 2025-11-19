@@ -675,16 +675,16 @@
 
 <body>
 
-    <audio id="bg-music" autoplay loop>
-  <source src="https://drive.google.com/uc?export=download&id=1Dbe5R9QsUeYFokVdKp8i2u_wD8vwEKRF" type="audio/mpeg">
+    <audio id="bg-music" preload="auto" loop>
+    <source src="https://raw.githubusercontent.com/ngotranhoangthinhhtk8c-cmd/20-11/main/Messenger_creation_53262C98-5D97-4A35-9305-53E5830C29F8.mp3" type="audio/mp3">
 </audio>
 
 <script>
-  document.addEventListener("click", function() {
+document.addEventListener("click", function () {
     const audio = document.getElementById("bg-music");
     audio.volume = 0.5;
     audio.play();
-  }, { once: true });
+}, { once: true });
 </script>
     
     <svg style="display: none;" id="theSvg" viewBox="-120 -30 240 180" enable-background="new 0 0 174 148"
